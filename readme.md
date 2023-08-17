@@ -1,15 +1,12 @@
-# Langchain Ask PDF (Tutorial)
+# Simulation Tool 
 
->You may find the step-by-step video tutorial to build this application [on Youtube](https://youtu.be/wUAUdEw5oxM).
-
-This is a Python application that allows you to load a PDF and ask questions about it using natural language. The application uses a LLM to generate a response about your PDF. The LLM will not answer questions unrelated to the document.
+This is a Python tool that helps healthcare providers better understand a patient's possible experience in the healthcare system based on their racial group. 
 
 ## How it works
 
 The application reads the PDF and splits the text into smaller chunks that can be then fed into a LLM. It uses OpenAI embeddings to create vector representations of the chunks. The application then finds the chunks that are semantically similar to the question that the user asked and feeds those chunks to the LLM to generate a response.
 
 The application uses Streamlit to create the GUI and Langchain to deal with the LLM.
-
 
 ## Installation
 
@@ -30,8 +27,7 @@ streamlit run app.py
 ```
 
 
-## Contributing
+[Stanford Presentation.pdf](https://github.com/Muhideenthegreat/SimulationTool/files/12368340/Stanford.Presentation.pdf)
 
-This repository is for educational purposes only and is not intended to receive further contributions. It is supposed to be used as support material for the YouTube tutorial that shows how to build the project.
 
 
